@@ -22,7 +22,7 @@ var io = require('socket.io')(server);
 app.use(express.json());
 
 // connect to mongo db
-const DB= "mongodb+srv://sanyamsinghal2101:Sanyam%402101@cluster0.vbkw7rk.mongodb.net/test?retryWrites=true&w=majority";
+const DB= "mongodb+srv://sanyamsinghal2101:<password>@cluster0.vbkw7rk.mongodb.net/test?retryWrites=true&w=majority";
                                             //%40 is used in place for @
 
 //listening to socket.io events from client(flutter code)
